@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head.ejs')%>
+</head>
+<body>
+
+    <%- include ('partials/header.ejs')%>
+
+
+    <div class="container w3-white mt-5">
+        <h1 class="display-4 w3-border-bottom"><small>Ecosistemas</small></h1>
+
+        <div class="w3-row">
+            <a href="javascript:void(0)" onclick="openSection(event, 'Humedal');">
+                <div
+                    class="w3-third tablink w3-col s12 m4 w3-bottombar w3-hover-light-grey w3-padding w3-pale-green w3-border-green">
+                    Humedal</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openSection(event, 'Espinal_y_pastizal');">
+                <div class="w3-third tablink w3-col s12 m4 w3-bottombar w3-hover-light-grey w3-padding">Espinal y
+                    pastizal</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openSection(event, 'Bosque_ribereño');">
+                <div class="w3-third tablink w3-col s12 m4 w3-bottombar w3-hover-light-grey w3-padding">Bosque
+                    ribereño y Juncal</div>
+            </a>
+        </div>
+
+        <!--Humedal-->
+        <div id="Humedal" class="w3-container section" style="display:block">
+            <div class="card mt-2">
+                <header class="card-header">
+                    <h2>Humedal</h2>
+                </header>
+
+                <div class="container-fluid py-3">
+                    <img src="/img/Ecosistemas/bosque ribereño.2.jpg" class="p-3 img-article float-left"  style="width:100%;" alt="">
+
+                    <p class="text-break text-justify p-1">
+                        Se caracteriza por tener agua permanente o temporalmente (el Pajonal y el bosque ribereño están
+                        dentro del humedal).
+                        <br> <br>
+                        Mientras el estado no da respuesta sobre la quema de las islas del Delta el avance sobre los humedales impacta en zonas aledañas a la reserva natural de pilar para generar pastos más apetecibles para el ganado o rellenarlo para el ganado o para la construcción de viviendas , usualmente barrios cerrados aparte de la suma de la contaminación del parque industrial de pilar hay familias obligadas a asentarse  en estos valles de inundación,la degradación y pérdida no solo afecta la biodiversidad sino los medios de subsistencia humana .El gobierno dado a su desinterés no se reconoce su importancia  de valor ecosistémico  estratégico para la producción de condiciones de calidad de vida de las poblaciones que están alojadas en su entorno.
+                        <br> <br>
+                        Desde el cuerpo de guardaparques de la reserva consideramos que es importante que se reconozca el valor  de estos ambientes por todos sus beneficios ecosistémicos . Sea funcionando como supermercados biológicos,proporcionando productos y medios de vida sostenibles y una rica diversidad biológica . <br> <br>
+                        Aproximadamente el 40% de las especies del mundo habita  o se cría en humedales. También funcionan como esponjas naturales ,por su capacidad de amortiguar fenómenos naturales como inundaciones o sequías  permitiendo la recarga de las napas freáticas.<br> <br>
+                        Es el ecosistema que almacena más carbono lo que lo hace el primer aliado contra la mitigación y adaptación al cambio climático. Es preciso tomar conciencia e instalar la importancia de que se los considera bienes comunes para la sociedad y nuestra responsabilidad de protegerlos y conservarlos en función  de interés colectivo. Los humedales en Argentina ocupan el 21% de su superficie.Por eso consideramos que la educación ambiental y la concientización son herramientas clave para afrontar estas problemáticas, Por todo lo expuesto anteriormente  y por el enorme valor biológico , ecológico,cultural y social que tiene  este ambiente ,apoyamos la iniciativa de tribuna ambiental de impulsar una campaña por la sanción  de una ley para la protección de los humedales que preserve realmente estos ambientes ya que los proyectos presentados de los bloques patronales (como el de Leonardo Grosso o el de Graciela Camaño)no dan una respuesta verdadera  a estas problemáticas.
+
+                    </p>
+                </div>
+                <div class="container-fluid pb-3">
+                    <div class="row flexx-center">
+                        <div class="col-sm-12 col-md-6">
+                                <img src="/img/Ecosistemas/bosque ribereño.3.jpg" class="p-1" style="width:100%" alt="">
+
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                                <img src="/img/Ecosistemas/bosque ribereño.jpg" class="p-1 " style="width:100%" alt="">                    
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!--Espinal y pastizal-->
+        <div id="Espinal_y_pastizal" class="w3-container section" style="display:none">
+            <div class="w3-container mb-4">
+                <div class="card mt-2">
+                    <header class="card-header">
+                        <h2>Espinal y pastizal</h2>
+                    </header>
+
+                    <div class="container-fluid py-3">
+                        <img class="img-article float-left rounded mr-3"
+                            src="../img/Ecosistemas/Espinal y pastizal.1.jpg" alt="">
+
+                        <p class="text-break text-justify p-1">El espinal y el pastizal forman una region
+                            de transición entre lomadas, bosques bajos
+                            y planiscies. Lo que difencia a este lugar
+                            es la mezcla de arboles de origen
+                            chaqueño y pastizales que ingresan desde
+                            la pampa. Cuenta con uba extesa red de
+                            arroyos.</p>
+                        <h4>Clima</h4>
+                        <p>El clima del pastizal y el espinal es húmedo
+                            ya que forma parte de la red hídrica que
+                            moldea la Mesopotamia Argentina. En la
+                            estación lluviosa los ríos aumentan su
+                            caudal y tienden a desbordarse en las
+                            llanuras. Sin embargo, hay largas
+                            temporadas de sequía..</p>
+                    </div>
+                    <div class="container-fluid py-3 border-top">
+                        <img class="img-article float-right rounded" src="../img/Ecosistemas/Espinal y pastizal.2.jpg"
+                            alt="">
+                        <h4>Flora</h4>
+                        <p>Los arboles pertenecen al grupo de los
+                            algarrobos
+                            El ñandubay es la especie dominante en la
+                            mesopotamia.
+                            El caldén es el árbol dominante en el
+                            espinal pampeano</p>
+                    </div>
+                    <div class="container-fluid py-3 border-top">
+                        <img class="img-article float-left mr-3 rounded"
+                            src="../img/Ecosistemas/Espinal y pastizal.3.jpg" alt="">
+                        <h4>Fauna</h4>
+                        <p>Hay variedad de especies de aves,
+                            algunas son caracteristicas de la zona,
+                            como la paloma de monte y el tordo
+                            músico. Tambien otras aves como las
+                            monjitas, calandrias, el cardenal amarillo,
+                            A demás entre los mamiferos esta la
+                            vizcacha, la corzuela, el zorro de monte.</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!--Bosque ribereño y juncal-->
+        <div id="Bosque_ribereño" class="w3-container section" style="display:none">
+            <div class="w3-container mb-4">
+                <div class="card mt-2">
+                    <header class="card-header">
+                        <h2>Bosque ribereño y Juncal</h2>
+                    </header>
+
+                    <div class="container-fluid py-3">
+                        <p class="text-break text-justify p-1">En la reserva natural ubicada en Dr. Manuel Argerich 10,
+                            B1629 Pilar, Provincia de
+                            Buenos Aires, podemos encontrar cuatro ecosistemas dos de ellos son:</p>
+
+                    </div>
+
+                    <div class="container-fluid py-3 border-top">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h4>Juncal</h4>
+                                        <p>Son plantas que sostienen una gran biodiversidad, frenan erosiones y generan un equilibrio vital para el desarrollo de la biodiversidad y se desarrolla mayormente en el borde de las lagunas, su existencia tiene una gran importancia para la fauna, porque se encuentra una variedad de especies de aves (chajá, carau, caracolero, pico de plata entre otras) y mamíferos (coipos, cuises, roedores acuáticos). <br> <br>
+                                            Además, el juncal cumple una gran importancia para la sociedad y la economía, ya que el junco cortado y producido, sirve para la construcción de quinchos.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <img class="rounded mt-2" style="width: 100%;"
+                                    src="../img/Ecosistemas/juncal.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container py-3 border-top">
+                                                     <h4>Bosque ribereño</h4>   
+                                                    <img class="rounded p-2 img-article float-right"
+                                                src="../img/Ecosistemas/juncal1.jpg" alt="">
+                                            <img class="rounded p-2 img-article float-right"
+                                                src="../img/Ecosistemas/juncal2.jpg" alt="">
+
+                                    <p>Bosque ribereño es un hábitat conformado por ríos, lagunas, y otras fuentes de agua en un bosque, Estas le otorgan humedad, también son grandes corredores para la flora y fauna. <br> <br>
+                                        Los bosque ribereños generalmente se localizan en una elevación baja, esto le otorga diferentes beneficios, uno de ellos se produce cuando llueve por que los nutrientes Son arrastrados por el río y la tierra mejorando la Calidad de la flora, También las semillas de las plantas se dispersan por medio del río a grandes distancias, La fauna usa estos corredores para migrar entre hábitats estacionales para su supervivencia. <br> <br>
+                                        El bosque ribereño de la reserva natural de pilar, tiene un área aproximado de Diez hectáreas, el río se encuentra en una zona baja, con una diversidad de flora nativas (alrededor de 100 especies de plantas) como sarandí colorado, tala, espinillo, timbo, algarrobo, entre otro. La fauna no se queda atrás, en la reserva podemos encontrar especies de aves como carpinteros, todas las garzas entre otros. <br> <br>
+                                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <%- include ('partials/footer.ejs')%>
+    
+</body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head.ejs')%>
+</head>
+<body>
+    <!--Header-->
+    <%- include ('partials/header.ejs')%>
+
+        <!--Main-->
+        <div class="container w3-white mt-5" style="min-height: 300px;">
+            <h1 class="display-4 w3-border-bottom"><small>Fauna</small></h1>
+            <!--tablinks-->
+            <div class="w3-row">
+                <a href="javascript:void(0)" onclick="openSection(event, 'Aves');">
+                    <div
+                        class="w3-third tablink w3-col s12 m6 l2 w3-bottombar w3-hover-light-grey w3-padding w3-pale-green w3-border-green">
+                        Aves</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openSection(event, 'Animales_acuaticos');">
+                    <div class="w3-third tablink w3-col s12 m6 l3 w3-bottombar w3-hover-light-grey w3-padding">Animales
+                        acuaticos</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openSection(event, 'Reptiles');">
+                    <div class="w3-third tablink w3-col s12 m6 l2 w3-bottombar w3-hover-light-grey w3-padding">Reptiles
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openSection(event, 'Cuadrupedos_noreptiles');">
+                    <div class="w3-third tablink w3-col s12 m6 l3 w3-bottombar w3-hover-light-grey w3-padding">
+                        Cuadrúpedos (no reptiles)</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openSection(event, 'Insectos_y_otros');">
+                    <div class="w3-third tablink w3-col s12 m12 l2 w3-bottombar w3-hover-light-grey w3-padding">
+                        Insectos y otros</div>
+                </a>
+            </div>
+    
+            <!--Aves-->
+            <div id="Aves" class="w3-container section" style="display:block">
+                <!--articulo 1 aves-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Espátula Rosada (Platalea ajaja)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Espátula Rosada.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Espátula Rosada.1.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                Espátula Rosada (Platalea ajaja) es una especie de ave ciconiiforme de la familia
+                                Threskiornithidae y se encuentra en las lagunas y arroyos de la Reserva.
+                                Tienen un pico aplanado, en forma de cuchara, el cual mueve de un lado a otro para filtrar
+                                su comida del barro de las orillas de los ríos, lagos y estuarios donde habita. Posee fuerte
+                                coloración rojiza o rosada de algunas plumas en los adultos, sobre todo en las alas.
+                                La espátula rosada es un ave grande que mide unos 71 cm. <br> <br>
+                                Pico largo, chato, que se expande y redondea en la punta. Pico y piel desnuda de la cabeza,
+                                verde amarillento. Plumaje casi totalmente rosado, barra del hombro, así como la rabadilla
+                                rojo rosáceo.
+                                Se alimenta moviendo el pico de un lado a otro entre el lodo y las aguas de poca
+                                profundidad. Crustáceos, insectos y larvas, moluscos, anfibios, pescados, plantas acuáticas
+                                y semillas.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 2 aves-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Pato capuchino (Spatula versicolor)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Pato Capuchino.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Pato Capuchino.jpg" alt="">
+                            <p class="text-break text-justify p-1  ">
+                                El pato capuchino, también conocido como cerceta capuchina,​ pato argentino o cerceta
+                                argentina, es una especie de ave anseriforme de la familia Anatidae propia de América del
+                                Sur. En la reserva se puede encontrar fácilmente sobre lagos y arroyos con poca
+                                vegetación.<br> <br>
+                                Pone de siete a diecinueve huevos, la incubación tarda 25 días. Se alimenta de semillas y de
+                                plantas acuáticas. Complementa su dieta con pequeños invertebrados, artrópodos e insectos.
+                                Se identifica rápidamente por su tamaño pequeño, gorra oscura, mejillas pálidas y pico azul
+                                con un parche amarillo en la base. El largo total es de 40 a 51 cm. Pesa de 300 a 500
+                                gramos.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 3 aves-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Carpintero Campestre (Colaptes campestris)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Carpintero Campestre.1.jpg"
+                                alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Carpintero Campestre.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                En parejas o en grupos familiares, el más terrícola de los carpinteros. Se posa en postes o
+                                ramas bajas, Como todos los carpinteros los dedos están dispuestos de un modo particular,
+                                dos dirigidos hacia atrás y dos hacia delante; esto le permite aferrarse mejor a los troncos
+                                verticales y trepar más fácilmente.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+            <!--Acuaticos-->
+            <div id="Animales_acuaticos" class="w3-container section" style="display:none">
+                <!--articulo 1 acuaticos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Boga (Leporinus obtusidens)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Boga.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Boga.1.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                La boga es un pez teleósteo sudamericano , En la reserva se suele encontrar fácilmente en la
+                                laguna y los arroyos, protegiéndose entre piedras y vegetación acuática. <br> <br>
+                                Son peces que alcanzan buen tamaño y peso, próximo a los diez kilos, en ejemplares adultos y
+                                bien desarrollados. Tienen boca pequeña y de labios débiles, en cambio sus dientes son
+                                fuertes e inclinados como los de un roedor. Tienen un color plateado opaco, con tres manchas
+                                oscuras en su aspecto general se parecen al sábalo, pero su diferencia se nota rápidamente
+                                por los dientes.
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+                <!--articulo 2 acuaticos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Chanchita (Australoheros facetus)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Chanchita.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Chanchitavvvvvvvvv.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                El chanchito, chanchita, castañeta, cará o chata (Australoheros facetus) es un pez de la
+                                familia de los cíclidos que habita en la cuenca del Plata. Ha sido introducido en otras
+                                zonas como Chile, el sur de la península ibérica, Estados Unidos y varios países del sudeste
+                                asiático. <br> <br>
+                                El chanchito es un perciforme relativamente grande, hasta 30 cm de largo.3​ Presenta las
+                                características físicas típicas de los cíclidos multicolor, cuerpo robusto, de aspecto
+                                redondeado, comprimido lateralmente y de perfil alto. Tiene una aleta dorsal de base muy
+                                ancha, su extremo posterior así como el de la aleta anal es más largo en los machos. El
+                                perfil de la aleta caudal es prácticamente recto. Su coloración es variable dependiendo de
+                                la edad, alimentación y estado de ánimo, lo que origina que en inglés sea denominado cíclido
+                                camaleón. El color de fondo varía del amarillo vivo al verde oliva, pasando por tonos
+                                parduzcos claros o grisáceos; presentando bandas verticales oscuras, seis en el cuerpo, dos
+                                en la frente y dos en el cuello y una en la base de la cola
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 3 acuaticos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Tachuela (Corydoras paleatus)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Tachuela.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Tachuela.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                La coridoras pimienta (Corydoras paleatus) es una especie de peces de la familia
+                                Callichthyidae. Son muy apreciados por los acuaristas por su resistencia a las diferentes
+                                condiciones ambientales, escasa talla, facilidad para la crianza en cautividad y sus hábitos
+                                alimentarios de remover continuamente el sustrato de peceras y acuarios buscando todo tipo
+                                de materia orgánica comestible, efectuando así indirectamente, una labor de limpieza, ya que
+                                remueven toda materia susceptible de descomponerse y contaminar el agua. <br> <br>
+                                Se lo encuentra en los ríos del área subtropical de América del Sur: en Argentina (ríos de
+                                la Plata, Paraná, Uruguay, Segundo, Carcaraña, Luján, Iguazú, etc.), Bolivia, Brasil
+                                (Paraná, Iguazú, Gravatay, Uruguay, etc.), Paraguay (Paraná, Paraguay) y Uruguay (Uruguay).
+                                En esos cursos de agua, suele encontrárselo en aguas someras (incluso con baja cantidad de
+                                oxígeno diluido), agrupándose en cardúmenes que suelen alcanzar los centenares de
+                                individuos.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 4 acuaticos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Lobito de Rio (Lontra longicaudis)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Lobito de Rio.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Lobito de Rio.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                Mide entre 50 y 130 cm de longitud y pesa entre 5 y 12 kg; los machos son más pequeños que
+                                las hembras. El pelaje es pardo, de canela a grisáceo. La nariz es negra. Las patas son
+                                relativamente cortas y presentan garras fuertes con uñas robustas y membranas
+                                interdigitales. La cola cónica termina en punta. <br> <br>
+                                En la reserva se encuentra sobre el rio, prefiere lugares con amplia cobertura vegetal..
+                                <br> <br> Es de hábitos normalmente diurnos, pero puede volverse completamente nocturno en
+                                lugares alterados por el hombre. Si bien es solitario, los individuos se mantienen en
+                                comunicación mediante marcas y señales olfatorias a través de las heces que deposita en
+                                sitios visibles como rocas y troncos que afloran del agua; también suelen emitir gruñidos y
+                                sonidos agudos y fuertes en señal de alarma.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+            <!--Reptiles-->
+            <div id="Reptiles" class="w3-container section" style="display:none">
+                <!--articulo 1 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Lagartija Verde (Teius oculatus)
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Lagartija Verde.1.jpg"
+                                alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Lagartija Verde.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                La lagartija verde o teyú (Teius teyou) es una especie de lagarto de la familia Teiidae. No
+                                suele superar los 13 cm de largo, mientras que su longitud total (incluyendo la cola) puede
+                                alcanzar los 40 cm.
+                                Tiene una característica única, que es la presencia de solo 4 dedos en el pie, el quinto
+                                dedo presente en el resto de las especies de Teiidae está atrofiado.
+                                Presenta una lengua larga, y ancha. La lengua no es retráctil, como en la mayoría de las
+                                lagartijas. Presenta dientes laterales bicuspídeos, su cuerpo está comprimido
+                                transversalmente; las placas de la cabeza son grandes y regulares, narina presente en la
+                                placa nasal anterior, párpados desarrollados, escamas dorsales pequeñas, ventrales con
+                                placas subcuadrangulares largas y lisas, tímpano grande y descubierto.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 2 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Sapito de panza amarilla (Rhinella fernandezae)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3"
+                                src="../img/Fauna/Sapito de Panza Amarilla.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Sapito de Panza Amarilla.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                El sapito de panza amarilla (Rhinella fernandezae), también llamado: sapito de jardín de
+                                Fernández, es una especie de anfibio perteneciente a la familia Bufonidae. Se lo encuentra
+                                en el sector este del cono sur de Sudamérica.
+                                Mide entre 7 y 8 cm. Como defensa, posee glándulas parótidas que segregan una secreción
+                                tóxica. Para su protección, cava con sus patas posteriores cuevas de 20 a 30 cm de
+                                profundidad.
+                                Se alimenta de insectos, arácnidos, moluscos, y crustáceos.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 3 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Sapo Común (Rhinella arenarum)
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Sapo Común.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Sapo Común.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                El sapo argentino o sapo grande (Rhinella arenarum) es una especie de anfibio anuro que se
+                                distribuye en Sudamérica. Miden aproximadamente unos 15 cm, presentando un dorso de un color
+                                marrón verdoso con verrugas y su vientre un color claro. Detrás de sus ojos poseen glándulas
+                                parótidas, a través de ellas, el animal excreta un líquido blancuzco que le sirve para
+                                ahuyentar a sus posibles depredadores. Este líquido es una toxina venenosa letal para
+                                cualquier mamífero depredador que intente devorarlo y/o tocarlo. Ojos brillantes con pupila
+                                horizontal y un color de iris que va desde amarillo oscuro hasta cobrizo. Se alimenta de
+                                insectos y larvas de lombrices. <br> <br>
+                                Nacen con branquias externas, pero éstas quedan pronto internalizadas por el desarrollo del
+                                opérculo, hasta quedar encerradas en un saco branquial que comunica con el exterior solo por
+                                el espiráculo. Cuando un renacuajo alcanza la madurez necesaria, sufre una metamorfosis en
+                                la que gradualmente crecen sus patas y absorben su cola por apoptosis. Los renacuajos de los
+                                anuros son fundamentalmente herbívoros, con una especial adaptación para raer superficies,
+                                para lo que están dotados de filas de dientecillos en torno a la boca (los dientes
+                                labiales).
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 4 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Tortuga de Laguna (Phrynops hilarii)
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Tortuga de Laguna.1.jpg"
+                                alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Tortuga de Laguna.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                La tortuga de laguna es una especie de tortuga de la familia Chelidae. Llega a alcanzar una
+                                talla de hasta 40 cm y como todos los reptiles de hábitos anfibios bien definidos, la
+                                tortuga de laguna, se puede encontrar en la reserva sobre la laguna, y también prefiere la
+                                vegetación y plantas acuáticas. La tortuga de laguna es carnívora; consume presas vivas y
+                                muertas. Los componentes de su dieta varían de acuerdo con la edad y la estación del año:
+                                los jóvenes se alimentan fundamentalmente con insectos, caracoles y renacuajos; los adultos
+                                consumen insectos, peces, pichones de aves y pequeños mamíferos.br <br> <br>
+                                Todas las actividades de las tortugas de laguna se llevan a cabo en horas del día; no
+                                obstante, en raras ocasiones, generalmente vinculadas con la reproducción, suelen extender
+                                su actividad al crepúsculo. <br> <br>
+                                Es de hábitos sociales bien definidos, ya que se une con los otros ejemplares de la
+                                población tanto en épocas desfavorables como en las otras.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 5 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Lagarto Overo (Salvator merianae)
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Lagarto Overo.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Lagarto Overo.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                El lagarto overo es terrestre, generalmente, sobre la reserva construyen cuevas debajo de
+                                los arboles, y lo utilizan como refugio. <br> <br>
+                                La alimentación es también amplia tratándose de un generalista, carnívoro y omnívoro, su
+                                dieta se compone de artrópodos, insectos, pequeños vertebrados, huevos de aves y tortugas, y
+                                de tanto en tanto materia vegetal como fruta, ciertas hierbas o flores.
+                                Las reproducciones (en cualquier época del año) en climas tropicales comprenden de 4 a 32
+                                huevos. La incubación, a una temperatura de 28 °C, puede durar desde 152 hasta 171 días.
+                                Esta especie tienen un largo total de 140 cm y muestra 17 a 29 poros preanales y femorales.
+                                El color base es el marrón negruzco con brillos azulados complementado con varias bandas
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 6 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Rana Roncadora (Scinax granulatus)
+    
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Rana Roncadora.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Rana Roncadora.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+    
+                                La rana roncadora presenta una coloración dorsal gris o marrón clara con manchas oscuras. El
+                                vientre es blanco amarillento y en la ingle tiene un tono anaranjado. Tiene membranas entre
+                                los dedos de las patas posteriores. Mide unos 3 cm de longitud. Se alimenta de moscas,
+                                mosquitos y pequeños escarabajos. En la reserva se puede encontrar debajo de los arboles,
+                                hojas, o arbustos. <br> <br>
+                                La reproducción de esta especie se produce entre octubre y enero. En ese período, los machos
+                                vocalizan sobre ramas de árboles o arbustos cercanos a los cuerpos de agua. Comienzan a
+                                cantar después de la puesta del sol y continúan hasta avanzada la madrugada. La hembra
+                                deposita unos 350 huevos que se adhieren a la vegetación acuática. Luego de la metamorfosis,
+                                los nuevos individuos miden unos 9 mm de longitud.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 7 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Viborita de Cristal (Ophiodes vertebralis)
+    
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Viborita de Cristal.jpg"
+                                alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Viborita de Cristal.1.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                Es un lagarto pequeño, con un cuerpo fusiforme de 20 a 35 centímetros. Este saurio no cuenta
+                                con patas delanteras, mientras que las traseras están reducidas a aletas. Si bien esta
+                                especie por su apariencia externa suele ser confundida con un ofidio, se diferencia de estos
+                                últimos porque tiene la capacidad de desprender la cola. <br> <br>
+                                No obstante no poseer patas, logran desplazarse rápidamente entre la vegetación herbácea
+                                donde viven: pastizales abiertos, mayormente próximos a ambientes acuáticos, en lomas
+                                asoleadas cubiertas de pasto corto, médanos fijados con pastizales ralos, en sierras, en
+                                biotopos rocosos, entre o bajo piedras o troncos apoyadas en tierra.
+                                Está activa desde septiembre hasta fines de abril; el resto de los meses hiberna. Su
+                                reproducción es ovovivípara. Desde fines del mes de enero hasta marzo pare de 7 a 10 crías.
+    
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 8 reptiles-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Tortuga Pintada (Chrysemys picta)
+    
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Tortuga Pintada.1.jpg"
+                                alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Tortuga Pintada.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                La tortuga morrocoyo (Trachemys dorbigni) también conocida tortuga tigre de río, es una
+                                especie de tortuga que pertenece a la familia Emydidae.
+                                Es la clásica del género Trachemys. Posee un caparazón hidrodinámico. Sus dedos son bastante
+                                palmeados y con pequeñas uñas muy afiladas. Tiene un cuerpo y caparazón verdes con dibujos
+                                amarillos o naranjas. Posee a ambos lados de su cabeza dos enormes manchas de color amarillo
+                                por lo que es muy fácil identificar la especie. Con la edad pierden el color del caparazón y
+                                quedan casi marrones. <br> <br>
+                                Las hembras son más grandes y alcanzan hasta 32 cm de longitud y los machos hasta 28 cm.
+                                Son omnívoras. Se alimentan de crustáceos, insectos, algún pez pequeño, carroña, aves,
+                                anfibios y plantas acuáticas.
+                                Los machos ya maduros tienen la cola mucho más larga que la hembra y son más pequeños, las
+                                hembras tienen la cola más corta y son considerablemente más grandes. Los machos de esta
+                                especie a diferencia de otros no poseen enormes garras.
+    
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!--Cuadrupedos_noreptiles-->
+            <div id="Cuadrupedos_noreptiles" class="w3-container section" style="display:none">
+                <!--articulo 1 otros-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Cuis (Cavia aperea)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Cuis.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Cuis.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                Se caracteriza por su cuerpo robusto, cabeza grande de perfil recto, ojos grandes, orejas
+                                pequeñas y cuello corto y grueso. El mentón está totalmente cubierto de pelos. Las patas son
+                                cortas, fuertes y tienen uñas agudas. La cola está ausente. El pelaje es corto y grueso. La
+                                coloración dorsal es parda olivácea jaspeada de negro, más clara en los flancos. El vientre
+                                es de color gris blancuzco o crema pálido y la garganta tiene una franja parda grisácea. Los
+                                incisivos son de color blanco. <br> <br>
+                                Se lo encuentra en los pastizales de la reserva, o lugares con abundante cobertura vegetal
+                                arbustiva, herbácea o boscosa.
+                                Es terrestre y de hábitos crepusculares, si bien también se lo suele observar activo de día.
+                                Vive en grupos de 5 a 10 individuos, aunque a veces forma colonias numerosas. No cava
+                                madrigueras, sino que se refugia entre la vegetación seca o bajo las piedras. Cuando se
+                                dirige desde sus dormideros hacia los sitios de alimentación recorre siempre los mismos
+                                carriles entre la vegetación.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 2 otros-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>
+                                Zorro gris
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Zorro Gris.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Zorro Gris.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                El zorro gris tiene un pelaje corto, denso, gris en el lomo y patas. La cabeza y el cuello
+                                son rojizos, orejas triangulares, anchas y relativamente grandes: rojizas por fuera y
+                                blancas por dentro. Pesan de 4 a 5,5 kg. Tiene entre 2 a 6 crías. Su longitud va de los 62
+                                cm. a los 65 cm.
+                                el zorro gris es un animal omnívoro que mantiene una dieta muy variada en su hábitat. Además
+                                de cazar sus propias presas, que son mayormente mamíferos y aves de pequeño y mediano porte,
+                                estos cánidos también pueden aprovecharse de la carroña dejada por otros depredadores, y
+                                suele consumir frutos para complementar su nutrición. <br> <br>
+                                Viven generalmente una vida solitaria, pero se reúnen en la temporada de apareamiento y
+                                cuidan de las camadas. Son muy activos en los crepúsculos y la noche. Son conocidos por
+                                colectar partes de ropas y llevarlos a su guarida. Si son tomados como presas, simulan muy
+                                bien la rigidez de muerto, cerrando los ojos y cayendo al suelo
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                <!--articulo 3 otros-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>
+                                Peludo (Chaetophractus villosus)
+                            </h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Peludo.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Peludo.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                El quirquincho grande, tatú peludo, peludo o armadillo peludo (Chaetophractus villosus) es
+                                una especie de mamífero cingulado de la familia Chlamyphoridae endémico de Argentina,
+                                Bolivia, Chile, Paraguay y Uruguay. <br> <br>
+                                Es un animal acorazado, su armadura está constituida por un mosaico de pequeñas placas
+                                óseas, desde la capa inferior de la dermis, y están recubiertas de epidermis córnea. Es un
+                                sistema de protección contra sus depredadores; protegiendo incluso su cola.
+                                Las placas forman un escudo de una sola pieza sobre los hombros y otro sobre los cuartos
+                                traseros. La parte media del cuerpo tiene unas placas que forman bandas transversales
+                                articuladas entre sí, es decir, que se unen por una piel blanda; así se pueden enrollar
+                                formando una bola bien acorazada y cubrir la parte del cuerpo desprotegida: abdomen.
+                                De cuerpo robusto, patas cortas y musculosas, pudiendo desplazarse rápidamente. Extremidades
+                                con garras semejantes a uñas y las usa para conseguir su alimento o para excavar
+                                madrigueras. De hábitos nocturnos; se alimenta de insectos, gusanos, pequeños vertebrados y,
+                                carroña.
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+    
+            <!--Insectos y otros-->
+            <div id="Insectos_y_otros" class="w3-container section" style="display:none">
+                <!--articulo 1 insectos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Araña Lobo  (Schizocosa malitiosa)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Araña Lobo.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Araña Lobo.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                La Schizocosa malitiosa es una araña de la familia Lycosidae, es una araña lobo, llamada también vagabunda o licosa, es errante, de hábitos generalistas, se puede encontrar en refugios circunstanciales como grietas en piedras, pastos, hojarasca o troncos caídos. <br> <br>
+    Son arañas solitarias y vagabundas durante la mayor parte de su vida, capturan sus presas cazándolas, ya sea corriendo tras estas, o permaneciendo quietas para pasar desapercibidas y luego emboscándolas, debido a que no construyen telas. Las arañas lobo se alimentan mayoritariamente de insectos y otras arañas. Los niveles de canibalismo son altos y siguen el criterio ‘el de mayor tamaño se come al menor’. Lo más frecuente es que los adultos se alimenten de juveniles y las hembras se alimenten de machos, aunque existen excepciones en algunas especies de la familia Lycosidae.
+    Por sus estrategias activas de caza, las arañas lobo precisan tener buena visión. Como la mayoría de las arañas, las lobo poseen ocho ojos y detectan principalmente movimientos
+    
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+                <!--articulo 2 insectos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2>Araña Plateada   ( Argiope argentata)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Araña Plateada.1.jpg" alt="">
+                            <img class="img-article float-right rounded ml-3" src="../img/Fauna/Araña Plateada.jpg"
+                                alt="">
+                            <p class="text-break text-justify p-1">
+                                Argiope argentata, también denominada comúnmente «araña tigre», es una especie de araña araneomorfa de la familia Araneidae. <br> <br>
+                                La coloración es muy característica, el prosoma es plateado, presenta ocho ojos dispuestos en forma semicircular; cuando se encuentra en la red, mantiene unidas los pares de patas I-II de cada lado y los pares III-IV, asemejando tener solamente cuatro patas; el opistosoma es de color plateado en su parte dorsal; la parte posterior presenta cinco puntas a manera de espinas las cuales son de color oscuro.​ Tiende a colocarse en el centro de la telaraña que construye, en donde la hechura es diferente, con forma casi circular y más densa.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <h2 class="text-center pt-1 m-3">
+                    <small>
+                    Otros (molusco)
+                    </small>
+                </h2>
+    
+                <!--articulo 3 Otros e insectos-->
+                <div class="w3-container">
+                    <div class="card mt-2">
+                        <header class="card-header">
+                            <h2> Ampularia   (Pomacea canaliculata)</h2>
+                        </header>
+    
+                        <div class="container-fluid">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Ampularia.1.jpg" alt="">
+                            <img class="img-article float-left rounded mr-3" src="../img/Fauna/Ampularia.jpg" alt="">
+                            <p class="text-break text-justify p-1">
+                                Pomacea canaliculata es una especie de molusco gasterópodo dulceacuícola que integra el género Pomacea de la familia Ampullariidae. <br> <br>
+                                Es denominado comúnmente caracol manzana o ampularia. Habita en ambientes acuáticos en regiones templadas y templado-cálidas.
+                               Al ser comercializado en tiendas de acuarismo o criado en establecimientos de acuicultura para alimento humano, se producen escapes o liberaciones en ambientes acuáticos muy lejanos a su distribución original, y allí donde las condiciones ambientales lo permiten, la especie se establece en el nuevo hábitat y desarrolla poblaciones invasivas, las que se convierten en plagas al dañar cultivos o especies locales. 
+                               
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!--Main end-->
+
+<!--Footer-->
+    <%- include ('partials/footer.ejs')%>
+</body>
+</html>

@@ -1,0 +1,83 @@
+//media-query de los articulos, modifica el tamaño de la imagen
+.img-article{
+    width: 100%;
+}
+.maximus{
+    height: 500px;
+}
+
+@media only screen and (max-width:560px) {
+    .img-article {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:560px) {
+    .img-article {
+        width: 300px;
+    }
+}
+@media only screen and (min-width:768px) {
+    .img-article {
+        max-width: 300px;
+    }
+    .maximus{
+        height: 250px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .img-article {
+        max-width: 320px;
+    }
+    .maximus{
+        height: 270px;
+    }
+}
+
+@media only screen and (min-width:1360px) {
+    .img-article {
+        max-width: 370px;
+    }
+    .maximus{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .img-article {
+        max-width: 460px;
+    }
+    .maximus{
+        height: 340px;
+    }
+    
+}
+
+@media only screen and (min-width:1920px) {
+    .img-article {
+        max-width: 500px;
+    }
+    .maximus{
+        height: 370px;
+    }
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.control-border-prev {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.control-border-next {
+    border-radius: 0px 10px 10px 0;
+}
+
+@media only screen and (min-width:1600px){
+    .desaparecer{
+        display: none;
+    }
+}
+

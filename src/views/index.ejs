@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head.ejs')%>
+</head>
+<body>
+    <%- include ('partials/header.ejs')%>
+
+        <!--Slider-->
+        <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <!--Indicadores-->
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+            </ol>
+    
+            <!--contenido del slider-->
+            <div class="carousel-inner">
+    
+                <div class="carousel-item active">
+                    <div class="overlay-image portada-foto" style="background-image: url(./img/2019-09-16-126.JPG);"></div>
+                    <div class="container items-slider">
+                        <h1 class="display-4">Reserva Natural de Pilar</h1>
+                        <p><%= sliderText%></p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="overlay-image"
+                        style="background-image: url(./img/2020-02-02\ Dia\ de\ los\ Humedales-78.JPG);"></div>
+                    <div class="container items-slider">
+                        <h1 class="display-4">Reserva Natural de Pilar</h1>
+                        <p><%= sliderText%></p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="overlay-image"
+                        style="background-image: url(./img/2017-05-06\ COA\ 027.JPG);"></div>
+                    <div class="container items-slider">
+                        <h1 class="display-4">Reserva Natural de Pilar</h1>
+                        <p><%= sliderText%></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay-image"
+                        style="background-image: url(./img/2017-06-11\ Curso\ COA\ 026.JPG);"></div>
+                    <div class="container items-slider">
+                        <h1 class="display-4">Reserva Natural de Pilar</h1>
+                        <p><%= sliderText%></p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <!--Iconos next and prev-->
+            <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">Previus</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!--Slider end-->
+    
+    
+    
+        <!--Articles-->
+        <div class="container">
+            <div class="row">
+                <!--Card 1-->
+                <div class="mt-5 pt-2 col-sm-12 col-md-12 col-lg-4 card-hover">
+                    <div class="card bg-link rounded shadow">
+                        <div class="card-header  text-center col-lg-12">
+                            <h3 class="card-title">Biodiversidad</h4>
+                        </div>
+    
+                        <div class="card-footer">
+                            <a href="/Fauna" class="btn btn-success            float-left col-sm-5">Fauna</a>
+                            <a href="/Flora" class="btn bg-success  text-white float-right col-sm-5" id="bgboton">Flora</a>
+                        </div>
+                        <div class="card-img-container"><div class="card-img" style="background-image: url(img/Flora/Flores/Santa\ Lucia\ Blanca.jpg);"></div></div>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="mt-5 pt-2 col-sm-12 col-md-6 col-lg-4 card-hover">
+                    <div class="card bg-link rounded shadow">
+                        <div class="card-header  text-center col-lg-12">
+                            <h3 class="card-title">Ecosistemas</h4>
+                        </div>
+    
+                        <div class="card-footer"><a href="/Ecosistemas" class="btn btn-success stretched-link">Mas información</a></div>
+                        <div class="card-img-container"><div class="card-img" style="background-image: url(img/2017-06-11\ Curso\ COA\ 026.JPG);"></div></div>
+    
+                    </div>
+                </div>
+                <!--Card 3-->                
+                <div class="mt-5 pt-2 col-sm-6 col-md-12 col-lg-4 card-hover">
+                    <div class="card bg-link rounded shadow ">
+                        <div class="card-header  text-center col-lg-12">
+                            <h3 class="card-title">Problemáticas</h4>
+                        </div>
+    
+                        <div class="card-footer"><a href="/Problematicas" class="btn btn-success stretched-link">Mas información</a></div>
+                        <div class="card-img-container"><div class="card-img" style="background-image: url(img/Problematicas/download.jpg);"></div></div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    
+    
+        <!--Mapa-->
+        <div class="container-fluid bg-white p-3 mt-5">
+            <h1>
+                <i class="fas fa-map-marked-alt mr-2"></i><small>¡Encontranos acá!</small>
+                <hr color="black">
+            </h1>
+            <iframe class="col-sm-12"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.5552042503246!2d-58.91810058514661!3d-34.41264985491974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d54387b4de7%3A0xb3cfe58ae07fc0db!2sReserva%20Natural%20del%20Pilar!5e0!3m2!1ses!2sar!4v1602467487182!5m2!1ses!2sar"
+                height="600px" width="100%" frameborder="0" style="border:0;" scrolling="no" onload="resizeIframe(this)" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+    <%- include ('partials/footer.ejs')%>
+
+</body>
+</html>

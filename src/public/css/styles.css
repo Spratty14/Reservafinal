@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  background: #6aeb93;
+  background: linear-gradient(180deg, #6aeb93 0%, #81eb72 50%, #a3eb6a 100%);
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.flexx-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .card-body {
+    height: 400px;
+  }
+
+  .card-hover {
+    padding: 0;
+    margin: 0;
+  }
+
+  .w3-container {
+    padding: 0;
+  }
+}
+.carousel-item {
+  position: relative;
+  height: 32rem;
+  color: white;
+  background-color: #000000;
+}
+
+.items-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 50px;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.portada-foto {
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 576px) {
+  #bgboton {
+    margin-top: 10px;
+  }
+}
+.card-hover:hover {
+  transform: scale(1.03);
+  transition: 200ms ease-in-out;
+}
+
+.card-img-container {
+  position: relative;
+  height: 20rem;
+}
+
+.card-img {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.card {
+  transition: 200ms ease-in-out;
+}
+
+.icono {
+  width: 50px;
+}
+
+.icono2 {
+  width: 40px;
+}
+
+.img-article {
+  width: 100%;
+}
+
+.maximus {
+  height: 500px;
+}
+
+@media only screen and (max-width: 560px) {
+  .img-article {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 560px) {
+  .img-article {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .img-article {
+    max-width: 300px;
+  }
+
+  .maximus {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .img-article {
+    max-width: 320px;
+  }
+
+  .maximus {
+    height: 270px;
+  }
+}
+@media only screen and (min-width: 1360px) {
+  .img-article {
+    max-width: 370px;
+  }
+
+  .maximus {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .img-article {
+    max-width: 460px;
+  }
+
+  .maximus {
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .img-article {
+    max-width: 500px;
+  }
+
+  .maximus {
+    height: 370px;
+  }
+}
+html {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.control-border-prev {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.control-border-next {
+  border-radius: 0px 10px 10px 0;
+}
+
+@media only screen and (min-width: 1600px) {
+  .desaparecer {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

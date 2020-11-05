@@ -1,0 +1,100 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(106,235,147);
+    background: linear-gradient(180deg, rgba(106,235,147,1) 0%, rgba(129,235,114,1) 50%, rgba(163,235,106,1) 100%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.flexx-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 400px){
+    .card-body{
+        height: 400px;
+    }
+    .card-hover{
+        padding: 0;
+        margin: 0;
+    }
+    .w3-container{
+        padding: 0;
+    }
+}
+
+.carousel-item {
+    position: relative;
+    height: 32rem;
+    color: white;
+    background-color: #000000;
+}
+
+.items-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+.portada-foto{
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 576px){
+    #bgboton{
+        margin-top: 10px;
+    }
+}
+.card-hover:hover{
+    transform: scale(1.03);
+    transition: 200ms ease-in-out;
+}
+.card-img-container{
+    position: relative;
+    height: 20rem;
+}
+.card-img{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-body{
+    height: 250px;
+}
+.card{
+    transition: 200ms ease-in-out;
+}
+.icono{
+    width: 50px;
+}
+.icono2{
+    width: 40px;
+}
